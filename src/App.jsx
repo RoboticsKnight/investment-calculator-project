@@ -10,58 +10,58 @@ function App() {
   return (
     <>
       <section id="center">
-        <div className="hero">
+        <div className="hero"> {/* Start of division for images */}
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
+        </div> {/* End of division for images */}
+        <div> {/* Start of division for Text */}
+          <h1>Get started</h1> {/* Text */}
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
-        </div>
+        </div> {/* End of division for Text */}
         <button
           type="button"
           className="counter"
           onClick={() => setCount((count) => count + 1)}
-        >
+        > {/* Start of click button */}
           Count is {count}
-        </button>
+        </button> {/* End of click button */}
       </section>
 
-      <div className="ticks"></div>
+      <div className="ticks"></div> {/* Bevels for division */}
 
       <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
+        <div id="docs"> {/* Start of documentation division */}
+          <svg className="icon" role="presentation" aria-hidden="true"> {/* Document Icon */}
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
+          <h2>Documentation</h2> {/* Text */}
           <p>Your questions, answered</p>
-          <ul>
-            <li>
+          <ul> {/* Start of unordered list */}
+            <li> {/* Start of explore vite button */}
               <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
+                <img className="logo" src={viteLogo} alt="" /> {/* Vite logo */}
                 Explore Vite
-              </a>
-            </li>
-            <li>
+              </a> {/* Link */}
+            </li> {/* End of explore vite button */}
+            <li> {/* Start of learn more button */}
               <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
+                <img className="button-icon" src={reactLogo} alt="" /> {/* React logo */}
                 Learn more
-              </a>
-            </li>
-          </ul>
+              </a> {/* Link */}
+            </li> {/* End of learn more button */}
+          </ul> {/* End of unordered list */}
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
+        <div id="social"> {/* Start social media division */}
+          <svg className="icon" role="presentation" aria-hidden="true">{/* Person Icon */}
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
+          <h2>Connect with us</h2>{/* Text */}
           <p>Join the Vite community</p>
-          <ul>
-            <li>//Start of Github button
+          <ul>{/* Start of unordered list */}
+            <li>{/* Start of Github button */}
               <a href="https://github.com/vitejs/vite" target="_blank">
                 <svg
                   className="button-icon"
@@ -72,8 +72,8 @@ function App() {
                 </svg>
                 GitHub
               </a>
-            </li>//end of GitHub button
-            <li>
+            </li>{/* End of GitHub button */}
+            <li>{/* Start of Discord button */}
               <a href="https://chat.vite.dev/" target="_blank">
                 <svg
                   className="button-icon"
@@ -84,8 +84,8 @@ function App() {
                 </svg>
                 Discord
               </a>
-            </li>
-            <li>
+            </li>{/* End of Discord button */}
+            <li>{/* Start of X/Twitter button */}
               <a href="https://x.com/vite_js" target="_blank">
                 <svg
                   className="button-icon"
@@ -96,8 +96,8 @@ function App() {
                 </svg>
                 X.com
               </a>
-            </li>
-            <li>
+            </li>{/* End of X/Twitter button */}
+            <li>{/* Start of Bluesky button */}
               <a href="https://bsky.app/profile/vite.dev" target="_blank">
                 <svg
                   className="button-icon"
@@ -108,13 +108,13 @@ function App() {
                 </svg>
                 Bluesky
               </a>
-            </li>
-          </ul>
-        </div>
+            </li>{/* End of Blucesky button */}
+          </ul>{/* End of unordered list */}
+        </div>{/* End social media division */}
       </section>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
+      <div className="ticks"></div> {/* Bevels for division after Connect with us section */}
+      <section id="spacer"></section> {/* Adds a tiny space to the bottom of the section */}
     </>
   )
 }
