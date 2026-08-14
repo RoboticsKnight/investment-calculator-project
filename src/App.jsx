@@ -61,7 +61,7 @@ function App() {
           <h2>Connect with us</h2>
           <p>Join the Vite community</p>
           <ul>
-            <li>
+            <li>//Start of Github button
               <a href="https://github.com/vitejs/vite" target="_blank">
                 <svg
                   className="button-icon"
