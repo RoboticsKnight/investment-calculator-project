@@ -185,4 +185,58 @@
     right: 0;
     border-right-color: var(--border);
   }
+}*/
+
+/*Styles for my app*/
+
+#calculator{
+
+  border: 2px solid black;
+
+}
+
+#starting-amt-tbl{
+
+  font-size: 17px;
+  display: block;
+  text-align: left;
+  border: 3px solid black;
+
+}
+
+#final-amt-tbl{
+
+  font-size: 17px;
+  text-align: left;
+
+}
+
+#rate-of-return-tbl{
+
+  font-size: 17px;
+  text-align: left;
+
+}
+
+#compounding-period-tbl{
+
+  font-size: 17px;
+  text-align: left;
+
+  .custom-dropdown{
+
+    width: 200px;
+    height: 22px;
+    padding: 0px;
+    font-size: 15px;
+
+  }
+
+}
+
+#add-contribution-tbl{
+
+  font-size: 17px;
+  text-align: left;
+
 }

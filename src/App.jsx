@@ -11,34 +11,34 @@ function App() {
 
         <form>
 
-          <table> 
-            <td><label>Starting Amount</label></td>
+          <table id="starting-amt-tbl"> 
+            <td width="250"><label>Starting Amount</label></td>
             <td>
               <span>R</span>
               <input type="text"></input>
             </td>
           </table>
 
-          <table>
-            <td><label>After</label></td>
+          <table id="final-amt-tbl">
+            <td width="220"><label>After</label></td>
             <td>
               <input type="text"></input>
               <span>years</span>
             </td>
           </table>
 
-          <table>
-            <td><label>Rate of Return</label></td>
+          <table id="rate-of-return-tbl">
+            <td width="250"><label>Rate of Return</label></td>
             <td>
               <input type="text"></input>
               <span>%</span>
             </td>
           </table>
 
-          <table>
-            <td><label>Compounded</label></td>
+          <table id="compounding-period-tbl">
+            <td width="220"><label>Compounded</label></td>
             <td>
-              <select name="compounding-period" id="compounding-period">
+              <select name="compounding-period" id="compounding-period" class="custom-dropdown">
 
                 <option value="continuously">continuously</option>
                 <option value="daily">daily</option>
@@ -54,8 +54,8 @@ function App() {
             </td>
           </table>
 
-          <table>
-            <td><label>Additional Contribution</label></td>
+          <table id="add-contribution-tbl">
+            <td width="250"><label>Additional Contribution</label></td>
             <td>
               <span>R</span>
               <input type="text"></input> 
