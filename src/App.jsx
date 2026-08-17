@@ -11,32 +11,56 @@ function App() {
 
         <form>
 
-          <label>Starting Amount</label>
-          <input type="text"></input>
+          <table> 
+            <td><label>Starting Amount</label></td>
+            <td>
+              <span>R</span>
+              <input type="text"></input>
+            </td>
+          </table>
 
-          <label>After</label>
-          <input type="text"></input>
+          <table>
+            <td><label>After</label></td>
+            <td>
+              <input type="text"></input>
+              <span>years</span>
+            </td>
+          </table>
 
-          <label>Rate of Return</label>
-          <input type="text"></input>
+          <table>
+            <td><label>Rate of Return</label></td>
+            <td>
+              <input type="text"></input>
+              <span>%</span>
+            </td>
+          </table>
 
-          <label>Compounded</label>
-          <select name="compounding-period" id="compounding-period">
+          <table>
+            <td><label>Compounded</label></td>
+            <td>
+              <select name="compounding-period" id="compounding-period">
 
-            <option value="continuously">continuously</option>
-            <option value="daily">daily</option>
-            <option value="weekly">weekly</option>
-            <option value="biweekly">biweekly</option>
-            <option value="semimonthly">semimonthly</option>
-            <option value="monthly">monthly</option>
-            <option value="quarterly">quarterly</option>
-            <option value="semiannually">semiannually</option>
-            <option value="annually">annually</option>
+                <option value="continuously">continuously</option>
+                <option value="daily">daily</option>
+                <option value="weekly">weekly</option>
+                <option value="biweekly">biweekly</option>
+                <option value="semimonthly">semimonthly</option>
+                <option value="monthly">monthly</option>
+                <option value="quarterly">quarterly</option>
+                <option value="semiannually">semiannually</option>
+                <option value="annually">annually</option>
 
-          </select>
+              </select>
+            </td>
+          </table>
 
-          <label>Additional Contribution</label>
-          <input type="text"></input>
+          <table>
+            <td><label>Additional Contribution</label></td>
+            <td>
+              <span>R</span>
+              <input type="text"></input> 
+            </td>
+          </table>
 
           <section>
             <label>Contribute at the</label>
