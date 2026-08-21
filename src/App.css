@@ -200,21 +200,42 @@
   font-size: 17px;
   display: block;
   text-align: left;
-  border: 3px solid black;
+  /*border: 3px solid black;*/
+
+  .inuirandspan{
+
+    margin-left: -168px;
+    /*background-position:left center;*/
+    color: aqua;
+
+  }
 
 }
 
-#final-amt-tbl{
+#amt-time-tbl{
 
   font-size: 17px;
   text-align: left;
 
+  .inuiyearspan{
+
+    margin-left: -45px;
+    color: aqua;
+
+  }
 }
 
 #rate-of-return-tbl{
 
   font-size: 17px;
   text-align: left;
+
+  .inuipercentspan{
+
+    margin-left: -17px;
+    color: aqua;
+
+  }
 
 }
 
@@ -225,7 +246,7 @@
 
   .custom-dropdown{
 
-    width: 200px;
+    width: 170px;
     height: 22px;
     padding: 0px;
     font-size: 15px;
@@ -239,4 +260,10 @@
   font-size: 17px;
   text-align: left;
 
+  .inuirandspan{
+
+    margin-left: -168px;
+    color: aqua;
+
+  }
 }
