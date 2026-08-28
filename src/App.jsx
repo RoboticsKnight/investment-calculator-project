@@ -124,7 +124,36 @@ function App() {
 
                 </tr>
 
+                <tr>
+
+                  <td align="left">Starting Amount</td>
+                  <td align="right">R000.00</td>
+
+                </tr>
+
+                <tr>
+
+                  <td align="left">Total Contributions</td>
+                  <td align="right">R000.00</td>
+
+                </tr>
+
+                <tr>
+
+                  <td align="left">Total Interest</td>
+                  <td align="right">R000.00</td>
+
+                </tr>
+
               </table>
+
+              <br></br>
+
+              <div id="graph-info">
+
+                <g onClick=""></g>
+
+              </div>
 
             </div>
 
