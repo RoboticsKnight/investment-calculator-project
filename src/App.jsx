@@ -25,7 +25,7 @@ function App() {
             <tr>
               <td width="250"><label>After</label></td>
               <td>
-                <input type="text" class="input-controls"></input>
+                <input type="text" class="input-controls" maxLength={4}></input>
                 <span class="inuiyearspan">years</span>
               </td>
             </tr>
@@ -35,7 +35,7 @@ function App() {
             <tr>
               <td width="250"><label>Rate of Return</label></td>
               <td>
-                <input type="text" class="input-controls"></input>
+                <input type="text" class="input-controls" maxLength={10}></input>
                 <span class="inuipercentspan">%</span>
               </td>
             </tr>

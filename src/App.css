@@ -4,7 +4,8 @@
 
   width: 162px; /*working on this*/
   height: 17px;
-  padding: 8px; /*keeps size of text fields uniform*/
+  padding: 9px; /*keeps size of text fields uniform*/
+  padding-left: 4px;
   box-sizing: border-box;
 
 }
@@ -57,7 +58,7 @@
 
   font-size: 17px;
   text-align: left;
-  padding-right: 35px;
+  
 
   .inuipercentspan{
 
@@ -75,7 +76,7 @@
 
   .custom-dropdown{
 
-    width: 170px;
+    width: 162px;
     height: 22px;
     padding: 0px;
     font-size: 15px;
