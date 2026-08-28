@@ -15,7 +15,7 @@ function App() {
             <tr>
               <td width="250"><label>Starting Amount</label></td>
               <td>
-                <input type="text" ></input>
+                <input type="text" class="input-controls monetary-field"></input>
                 <span class="inuirandspan">R</span>
               </td>
             </tr>
@@ -25,7 +25,7 @@ function App() {
             <tr>
               <td width="250"><label>After</label></td>
               <td>
-                <input type="text"></input>
+                <input type="text" class="input-controls"></input>
                 <span class="inuiyearspan">years</span>
               </td>
             </tr>
@@ -35,7 +35,7 @@ function App() {
             <tr>
               <td width="250"><label>Rate of Return</label></td>
               <td>
-                <input type="text"></input>
+                <input type="text" class="input-controls"></input>
                 <span class="inuipercentspan">%</span>
               </td>
             </tr>
@@ -45,7 +45,7 @@ function App() {
             <tr>
               <td width="250"><label>Compounded</label></td>
               <td>
-                <select name="compounding-period" id="compounding-period" class="custom-dropdown">
+                <select name="compounding-period" id="compounding-period" class="custom-dropdown input-controls">
 
                   <option value="continuously">continuously</option>
                   <option value="daily">daily</option>
@@ -66,7 +66,7 @@ function App() {
             <tr>
               <td width="250"><label>Additional Contribution</label></td>
               <td>
-                <input type="text"></input> 
+                <input type="text" class="input-controls monetary-field"></input> 
                 <span class="inuirandspan">R</span>
               </td>
             </tr>
