@@ -1,11 +1,70 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { Chart } from 'chart.js/auto'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
+  {/* Chart code */}
+  const chartRef = useRef(null);
+
+  useEffect(() => {
+
+    const chart = new Chart(chartRef.current, {
+      type: 'doughnut', 
+      data: {
+        labels: ['Starting Amount', 'Contributions', 'Interest'],
+        datasets: [{
+          data: [55, 30, 15],
+          backgroundColor: [ 
+            '#b91d47', 
+            '#00aba9', 
+            '#2b5797' 
+          ]
+        }]
+
+      },
+
+      options: {
+        responsive: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Investment Breakdown'
+          
+          },
+
+          legend: {
+
+            position: 'top',
+            align: 'center',
+
+            labels: {
+
+              padding: 20
+              
+            }
+
+          }
+
+        }
+      }
+
+    })
+
+    return () => {
+
+      chart.destroy()
+
+    }
+
+    {/* Chart code */}
+  }, [])
+
   return (
     <>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
       <table>
 
@@ -151,7 +210,7 @@ function App() {
 
               <div id="graph-info">
 
-                <g onClick=""></g>
+                <canvas id="my-chart" ref={chartRef}></canvas>          
 
               </div>
 

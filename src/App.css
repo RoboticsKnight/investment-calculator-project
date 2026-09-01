@@ -108,7 +108,15 @@
 
 #graph-info{
 
-  text-align: center;
+  /*text-align: center;*/
+  width: 400px;
+  height: 300px;
 
+}
+
+#my-chart{
+
+  width: 75% !important;
+  height: 100% !important;
 
 }
