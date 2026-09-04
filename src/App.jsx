@@ -75,11 +75,13 @@ function App() {
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
       <table id="calc-layout">
-        <tr>
 
+        <tr>
+          
           <td class="input-col">
 
             <div id="calculator">
+              <h1 Style="text-align: left;">Calculate</h1>
 
               <form>
 
@@ -167,6 +169,8 @@ function App() {
                   </tr>
                 </table>
 
+                <input type="button" value="Calculate" id="calc-button"></input>
+
               </form>
 
             </div>
@@ -227,7 +231,7 @@ function App() {
           </td>
 
         </tr>
-        <input type="button" value="Calculate"></input>
+        
       </table>
 
     </>

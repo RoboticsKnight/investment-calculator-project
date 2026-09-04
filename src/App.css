@@ -28,7 +28,6 @@
 
   table-layout: fixed;
   width: 100%;
-  margin: 0 auto;
 
 }
 
@@ -36,6 +35,7 @@
 
   width: 430px;
   padding-left: 190px;
+  vertical-align: top;
 
 }
 
@@ -113,6 +113,15 @@
 
 }
 
+#calc-button{
+
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
 #add-contribution-tbl{
 
   font-size: 17px;
@@ -128,6 +137,7 @@
 #add-contribution-tbl {
   width: 300px;
   table-layout: fixed;
+  padding-bottom: 10px;
 }
 
 #starting-amt-tbl td:first-child,
@@ -149,7 +159,9 @@
 #contribution-timing{
 
   text-align: center;
-  padding-left: 40px;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 
 }
 
