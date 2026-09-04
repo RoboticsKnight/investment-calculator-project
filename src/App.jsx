@@ -27,12 +27,20 @@ function App() {
 
       options: {
         responsive: true,
+
+        layout: {
+          padding: {
+            left: -18,
+            right: 0
+        }
+  },
+
         plugins: {
-          title: {
+          /*title: {
             display: true,
             text: 'Investment Breakdown',
-          
-          },
+                      
+          },*/
 
           legend: {
 
@@ -205,10 +213,11 @@ function App() {
 
               </table>
 
-              <br></br>
+              {/*<br></br>*/}
 
               <div id="graph-info">
 
+                <h4 id="graph-heading">Investment Breakdown</h4>
                 <canvas id="my-chart" ref={chartRef}></canvas>          
 
               </div>
