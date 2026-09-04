@@ -30,13 +30,13 @@ function App() {
         plugins: {
           title: {
             display: true,
-            text: 'Investment Breakdown'
+            text: 'Investment Breakdown',
           
           },
 
           legend: {
 
-            position: 'top',
+            position: 'left',
             align: 'center',
 
             labels: {
@@ -66,11 +66,10 @@ function App() {
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
-      <table>
-
+      <table id="calc-layout">
         <tr>
 
-          <td>
+          <td class="input-col">
 
             <div id="calculator">
 
@@ -166,9 +165,9 @@ function App() {
 
           </td>
 
-          <td width="5%"></td>{/* spacing */}
+          <td class="gap-col"></td>{/* spacing */}
 
-          <td>
+          <td class="output-col">
 
             <div id="outputs">
             

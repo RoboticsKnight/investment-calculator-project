@@ -24,6 +24,34 @@
 
 }
 
+#calc-layout{
+
+  table-layout: fixed;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.input-col{
+
+  width: 430px;
+  padding-left: 190px;
+
+}
+
+.gap-col{
+
+  width: 5px;
+
+}
+
+.output-col{
+
+  width: 360px;
+  padding-right: 190px;
+
+}
+
 #calculator{
 
   border: 2px solid black;
@@ -33,7 +61,7 @@
 #starting-amt-tbl{
 
   font-size: 17px;
-  display: block;
+  /*display: block;*/
   text-align: left;
   /*border: 3px solid black;*/
 
@@ -91,6 +119,31 @@
   text-align: left;
 
  
+}
+
+#starting-amt-tbl,
+#amt-time-tbl,
+#rate-of-return-tbl,
+#compounding-period-tbl,
+#add-contribution-tbl {
+  width: 300px;
+  table-layout: fixed;
+}
+
+#starting-amt-tbl td:first-child,
+#amt-time-tbl td:first-child,
+#rate-of-return-tbl td:first-child,
+#compounding-period-tbl td:first-child,
+#add-contribution-tbl td:first-child {
+  width: 250px;
+}
+
+#starting-amt-tbl td:nth-child(2),
+#amt-time-tbl td:nth-child(2),
+#rate-of-return-tbl td:nth-child(2),
+#compounding-period-tbl td:nth-child(2),
+#add-contribution-tbl td:nth-child(2) {
+  width: 180px;
 }
 
 #contribution-timing{
